@@ -90,3 +90,42 @@ body{
 .weather{
     display: none;
 }
+
+@media (max-width: 480px) {
+    .card {
+        width: 95%;
+        padding: 25px 20px;
+    }
+    .search input {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+    .search button {
+        width: 45px;
+        height: 45px;
+    }
+    .search button img {
+        width: 22px;
+    }
+    .weather-icon {
+        width: 120px;
+        margin-top: 20px;
+    }
+    .weather h1 {
+        font-size: 40px;
+    }
+    .weather h2 {
+        font-size: 18px;
+    }
+    .details {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .col img {
+        width: 40px;
+    }
+    .wind, .humidity {
+        font-size: 0.9rem;
+    }
+}

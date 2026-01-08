@@ -42,9 +42,9 @@ async function checkWeather(city) {
         body.style.backgroundImage = "url('imgs/snowing.jpg')";
     }
       else if(data.weather[0].main =="Fog"){
-        weartherIcon.src = "fog.png";
-        cardBg.style.backgroundImage = "url('fog.jpg')"; 
-        body.style.backgroundImage = "url('fog.jpg')";
+        weartherIcon.src = "imgs/fog.png";
+        cardBg.style.backgroundImage = "url('imgs/fog.jpg')"; 
+        body.style.backgroundImage = "url('imgs/fog.jpg')";
     }
 document.querySelector(".weather").style.display = "block"; 
     
@@ -55,6 +55,7 @@ checkWeather();
 searchBtn.addEventListener("click", ()=>{
     checkWeather(searchBox.value);
 })
+
 
 
 

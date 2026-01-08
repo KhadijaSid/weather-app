@@ -61,6 +61,7 @@ body{
 .weather-icon{
     width: 150px;
     margin-top: 30px;
+    font-color: white;
 }
 .weather h1{
     font-size: 60px;
@@ -136,5 +137,6 @@ body{
         font-size: 0.9rem;
     }
 }
+
 
 
